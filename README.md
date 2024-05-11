@@ -1,6 +1,6 @@
 # Payroll Management Database
 
-Implemented in the Java <b>SQL for Backend Developers</b> Track of hyperskill.org's JetBrain Academy.<br>
+Implemented in the <b>SQL for Backend Developers</b> Track of hyperskill.org's JetBrain Academy.<br>
 The scripts perform calculations and generate reports using a combination of MySQL control flow statements, 
 functions, and procedures.
 MySQL database is run as docker container and managed via docker compose.
@@ -13,4 +13,4 @@ Sources for all project tasks (4 stages).
 
 ## Progress
 
-11.05.24 Project started. 
+11.05.24 Project started and all 4 stages completed.

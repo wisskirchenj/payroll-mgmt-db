@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS jobs
     id          INT PRIMARY KEY AUTO_INCREMENT,
     title       VARCHAR(45) NOT NULL,
     type        VARCHAR(45) NOT NULL,
-    hourly_rate DECIMAL(5, 2)
+    hourly_rate FLOAT(5, 2)
 );
 CREATE TABLE IF NOT EXISTS employees
 (
@@ -27,6 +27,6 @@ CREATE TABLE IF NOT EXISTS insurance_benefits
 (
     id               INT PRIMARY KEY AUTO_INCREMENT,
     job_id           INT NOT NULL,
-    annual_insurance DECIMAL(7, 2),
+    annual_insurance FLOAT(7, 2),
     constraint fk_ins_job_id foreign key (job_id) references jobs (id)
 );
